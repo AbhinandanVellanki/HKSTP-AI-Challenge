@@ -1,0 +1,19 @@
+# author: Abhinandan Vellanki, abhinandan.vellanki@gmail.com
+# Train command: python train.py --data dataset_bing.yaml
+# Default dataset location is next to /yolov5:
+#   /parent_folder
+#     /dataset_bing
+#     /yolov5
+
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: dataset_bing/images/aug_train/  
+val: dataset_bing/images/aug_val/ 
+test: dataset_bing/images/test/ 
+
+
+# number of classes
+nc: 15
+
+# class names
+names: ['Cannula','Chopper','Dressing Forceps','Fixation Ring','Handpieces','Hook Surgical','Iris Scissors','Knife Scalpel Handles','Micro Scissors','Needle Holders','Pusher','Spatula Surgical','Speculum','Spoon Surgical','Tissue Forceps']

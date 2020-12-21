@@ -1,0 +1,4 @@
+weights/custom/*[[:space:]].pt filter=lfs diff=lfs merge=lfs -text
+weights/custom/*.pt filter=lfs diff=lfs merge=lfs -text
+weights/custom/best.pt filter=lfs diff=lfs merge=lfs -text
+weights/custom/last.pt filter=lfs diff=lfs merge=lfs -text
